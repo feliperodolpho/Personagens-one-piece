@@ -3,6 +3,7 @@ body {
 
 }
 
+
 main .personagem {
     display: none;
     height: 100vh;
@@ -27,4 +28,26 @@ main .personagem .imagem {
     justify-content: center;
     min-height: 100vh;
     max-width: 380px;
+}
+
+.conteudo .nome-personagem  {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-family: "Secular one";
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.conteudo .descricao {
+    color: #FFFFFF;
+    font-family: "Rubik";
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.conteudo .logo {
+    background-image: url("../imagens/one-piece-logo.png");
+    background-size: cover;
+    height: 100px;
+    width: 230px;
 }
